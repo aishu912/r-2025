@@ -2,7 +2,7 @@ pipeline{
         agent{
                 label{
                         label 'built-in'  // Optional, specify a label if needed
-                        workspace '/var/www/html'        
+                        customWorkspace '/var/www/html'        
                 }
         }
   stages{
