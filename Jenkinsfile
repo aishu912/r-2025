@@ -1,7 +1,9 @@
 pipeline{
         agent{
-                label 'built-in'  // Optional, specify a label if needed
-                workspace '/var/www/html'
+                label{
+                        label 'built-in'  // Optional, specify a label if needed
+                        workspace '/var/www/html'        
+                }
         }
   stages{
     stage('master'){
