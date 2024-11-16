@@ -6,7 +6,7 @@ pipeline{
                 }
         }
   stages{
-    stage('master'){
+    stage('2025Q3'){
       steps{
           sh "systemctl restart httpd"
           sh "chmod -R 755 /var/www/html"
