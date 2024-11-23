@@ -1,7 +1,7 @@
 pipeline{
         agent{
                 label{
-                        label 'built-in'  // Optional, specify a label if needed
+                        label 'slave1'  // Optional, specify a label if needed
                         customWorkspace '/var/www/html'        
                 }
         }
